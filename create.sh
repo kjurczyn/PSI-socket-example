@@ -1,0 +1,2 @@
+docker create -it --rm --name z19_server --network z19_network --network-alias z19_server z19_server ./server 8001
+docker create -it --rm --name z19_client --network z19_network --network-alias z19_client z19_client ./client z19_server 8001 3000
