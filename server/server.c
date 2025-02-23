@@ -10,7 +10,7 @@
 int main(int argc, char* argv[]) {
 
     if (argc != 2) {
-        printlog("Usage: server port | argc:%i", argc);
+        printlog("Usage: server port");
         return -1;
     }
 
