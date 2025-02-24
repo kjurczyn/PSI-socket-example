@@ -1,12 +1,18 @@
-#include <netinet/in.h>
+#define _DEFAULT_SOURCE
+
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <sys/socket.h>
 #include <time.h>
+#include <netdb.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
 #include <unistd.h>
+#include <stdarg.h>
 #include "lab_msg.h"
+
 
 /** Node of a linked list
  */
